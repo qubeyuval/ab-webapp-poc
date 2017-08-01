@@ -1,0 +1,5 @@
+$ab-app-dark-primary: mat-palette($mat-blue);
+$ab-app-dark-accent: mat-palette($mat-lime, A200, A100, A400);
+$ab-app-dark-warn: mat-palette($mat-deep-orange);
+
+$ab-app-dark-theme: mat-dark-theme($ab-app-dark-primary, $ab-app-dark-accent, $ab-app-dark-warn);

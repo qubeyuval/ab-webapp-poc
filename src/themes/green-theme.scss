@@ -1,0 +1,5 @@
+$ab-app-green-primary: mat-palette($mat-green);
+$ab-app-green-accent: mat-palette($mat-deep-purple, A200, A100, A400);
+$ab-app-green-warn: mat-palette($mat-orange);
+
+$ab-app-green-theme: mat-dark-theme($ab-app-green-primary, $ab-app-green-accent, $ab-app-green-warn);

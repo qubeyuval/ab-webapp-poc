@@ -1,0 +1,5 @@
+$ab-app-primary: mat-palette($mat-amber);
+$ab-app-accent: mat-palette($mat-purple, A200, A100, A400);
+$ab-app-warn: mat-palette($mat-red);
+
+$ab-app-theme: mat-light-theme($ab-app-primary, $ab-app-accent, $ab-app-warn);

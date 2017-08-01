@@ -1,0 +1,32 @@
+
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300");
+
+html,
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    a:hover,
+    a:active,
+    a:focus {
+        text-decoration: none;
+    }
+    &:active,
+     :focus {
+        outline: none !important;
+    }
+}
+
+label {
+    margin: 0;
+}
+
+code {
+    white-space: nowrap;
+    border-radius: 10px;
+    padding: 0 8px 1px 8px;
+}

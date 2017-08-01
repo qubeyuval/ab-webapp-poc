@@ -1,0 +1,35 @@
+// todo import reset here
+@import 'styles-reset.scss';
+
+@import '~@angular/material/theming';
+
+
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+@import 'themes/default-theme.scss';
+@import 'themes/dark-theme.scss';
+@import 'themes/green-theme.scss';
+
+@import 'app/header/header.component.scss-theme.scss';
+
+
+@mixin custom-components-theme($theme) {
+    @include header-theme($theme);
+}
+
+
+.ab-default-theme {
+    @include angular-material-theme($ab-app-theme);
+    @include custom-components-theme($ab-app-theme);
+}
+
+.ab-dark-theme {
+    @include angular-material-theme($ab-app-dark-theme);
+    @include custom-components-theme($ab-app-dark-theme);
+}
+
+.ab-green-theme {
+    @include angular-material-theme($ab-app-green-theme);
+    @include custom-components-theme($ab-app-green-theme);
+}
