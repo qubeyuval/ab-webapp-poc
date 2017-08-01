@@ -1,0 +1,19 @@
+@import '~@angular/material/theming';
+@import 'header.component.scss-theme.scss';
+
+// default theme
+@include header-theme($ab-app-theme);
+// dark theme
+:host-context(.ab-dark-theme) {
+    @include header-theme($ab-app-dark-theme);
+}
+// green theme
+:host-context(.ab-green-theme) {
+    @include header-theme($ab-app-green-theme);
+}
+
+// none themeable styles
+nav {
+    width: 100%;
+}
+
